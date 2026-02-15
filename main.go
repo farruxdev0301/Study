@@ -3,11 +3,24 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("HELLO, WORLD!")
-	fmt.Println("HELLO, WORLD!")
-	fmt.Println("HELLO, WORLD!")
+	text1 := "Get ready"
 
-	fmt.Print("HELLO, WORLD!")
-	fmt.Print("HELLO, WORLD!")
-	fmt.Print("HELLO, WORLD!")
-} 
+	score := 0
+	
+	fmt.Println(text1)
+	fmt.Println("Ваш счёт:", score)
+
+	fmt.Println("Вы пролетели через трубу")
+	score = score + 1
+	fmt.Println("Ваш счёт:", score)
+
+	fmt.Println("Вы пролетели через трубу")
+	score = score + 1
+	fmt.Println("Ваш счёт:", score)
+
+	text2 := "вы не смогли пролететь через трубу"
+	score = 0
+	fmt.Println(text2)
+	fmt.Println("Ваш счёт:", score)
+
+}
